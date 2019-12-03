@@ -1,4 +1,4 @@
-import { _decorator, Component, LabelComponent, EditBoxComponent } from "cc";
+import { _decorator, Component, LabelComponent, EditBoxComponent, math } from "cc";
 const { ccclass, property, menu} = _decorator;
 
 @ccclass("EditboxEvent")
@@ -12,6 +12,12 @@ export class EditboxEvent extends Component {
     // serializableDummy = 0;
     @property(LabelComponent)
     showLabel = null;
+
+    @property(EditBoxComponent)
+    editBox1: EditBoxComponent = null;
+
+    @property(LabelComponent)
+    Label: LabelComponent = null;
 
     _isReturn = false;
 
@@ -39,6 +45,19 @@ export class EditboxEvent extends Component {
 
     editInputing(input, event, custom){
         this.showLabel.string = `${custom}: ${input}`;
+    }
+
+    onButton() {
+        this.Label.string = '输入内容：' + this.editBox1.textLabel.string;
+    }
+
+    onColor() {
+        this.editBox1.textLabel.color = math.Color.RED;
+        this.editBox1.placeholderLabel.color = math.Color.RED;
+    }
+
+    onSize() {
+        this.editBox1.textLabel.fontSize = 20;
     }
 
     // update (deltaTime: number) {

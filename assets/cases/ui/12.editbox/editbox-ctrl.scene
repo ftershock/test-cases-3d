@@ -610,17 +610,21 @@
     "textChanged": [],
     "editingDidEnded": [],
     "editingReturn": [],
+    "_textLabel": {
+      "__id__": 11
+    },
+    "_placeholderLabel": {
+      "__id__": 14
+    },
     "_returnType": 0,
     "_useOriginalSize": true,
     "_string": "",
-    "_tabIndex": 0,
+    "_tabIndex": 3,
     "_backgroundImage": {
       "__uuid__": "093b45c8-80d9-49a8-ac5c-bcdbaed2c6bf@f9941"
     },
     "_inputFlag": 4,
     "_inputMode": 6,
-    "_fontSize": 40,
-    "_lineHeight": 60,
     "_maxLength": 8,
     "_fontColor": {
       "__type__": "cc.Color",
@@ -629,8 +633,6 @@
       "b": 0,
       "a": 255
     },
-    "_placeholder": "Enter text here...",
-    "_placeholderFontSize": 20,
     "_placeholderFontColor": {
       "__type__": "cc.Color",
       "r": 187,
@@ -1126,17 +1128,21 @@
     "textChanged": [],
     "editingDidEnded": [],
     "editingReturn": [],
+    "_textLabel": {
+      "__id__": 49
+    },
+    "_placeholderLabel": {
+      "__id__": 52
+    },
     "_returnType": 0,
     "_useOriginalSize": true,
     "_string": "",
-    "_tabIndex": 0,
+    "_tabIndex": 1,
     "_backgroundImage": {
       "__uuid__": "093b45c8-80d9-49a8-ac5c-bcdbaed2c6bf@f9941"
     },
     "_inputFlag": 4,
     "_inputMode": 6,
-    "_fontSize": 40,
-    "_lineHeight": 60,
     "_maxLength": 8,
     "_fontColor": {
       "__type__": "cc.Color",
@@ -1145,8 +1151,6 @@
       "b": 0,
       "a": 255
     },
-    "_placeholder": "Enter text here...",
-    "_placeholderFontSize": 20,
     "_placeholderFontColor": {
       "__type__": "cc.Color",
       "r": 187,
@@ -1949,17 +1953,21 @@
     "textChanged": [],
     "editingDidEnded": [],
     "editingReturn": [],
+    "_textLabel": {
+      "__id__": 72
+    },
+    "_placeholderLabel": {
+      "__id__": 75
+    },
     "_returnType": 0,
     "_useOriginalSize": true,
     "_string": "",
-    "_tabIndex": 0,
+    "_tabIndex": 4,
     "_backgroundImage": {
       "__uuid__": "093b45c8-80d9-49a8-ac5c-bcdbaed2c6bf@f9941"
     },
     "_inputFlag": 4,
     "_inputMode": 6,
-    "_fontSize": 40,
-    "_lineHeight": 60,
     "_maxLength": 8,
     "_fontColor": {
       "__type__": "cc.Color",
@@ -1968,8 +1976,6 @@
       "b": 0,
       "a": 255
     },
-    "_placeholder": "Enter text here...",
-    "_placeholderFontSize": 20,
     "_placeholderFontColor": {
       "__type__": "cc.Color",
       "r": 187,
@@ -2836,8 +2842,8 @@
     "_enabled": true,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 314.22,
-      "height": 50
+      "width": 744.49,
+      "height": 150
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2866,7 +2872,7 @@
     },
     "_sharedMaterial": null,
     "_useOriginalSize": true,
-    "_string": "Only Valid in Web",
+    "_string": "Only Valid in Web\n选中tabindex=1的输入框 \n按Tab键会依照从小到大的顺序切换输入框",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 40,
